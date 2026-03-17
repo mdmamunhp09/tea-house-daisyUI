@@ -45,10 +45,11 @@
 </head>
 
 <body class="manrope">
-    <header>
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row gap-0 lg:gap-4 ">
-                <div class="px-3 lg:px-0 text-center lg:text-left lg:pr-32">
+    <!-- hero section start  -->
+    <header class="container mx-auto">
+        <div class="hero h-auto lg:h-[500px] mt-9">
+            <div class="flex flex-col lg:flex-row gap-0 lg:gap-4 justify-center items-center">
+                <div class="px-3 lg:px-0 text-center lg:text-left lg:pr-32 flex-1">
                     <h1 class="text-5xl font-bold">It's good <br>
                         tea time at The <br> Tea House</h1>
                     <p class="py-6 text-dark3">
@@ -57,9 +58,10 @@
                     </p>
                     <button class="btn bg-gradient-to-r from-lf to-lr text-xl text-white">Explore More</button>
                 </div>
-                <div class="relative mt-7">
+                <div class="relative mt-7 flex-1">
                     <img class="bg-none" src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
-                    <div class="flex justify-center items-center gap-3 bg-[#FFFFFF] shadow-xl px-3 py-5 w-56 rounded-xl absolute -mt-16">
+                    <div
+                        class="flex justify-center items-center gap-3 bg-[#FFFFFF] shadow-xl px-3 py-5 w-56 rounded-xl absolute -mt-16 lg:-mt-32 ml-5 lg:ml-28">
                         <i class="fa-solid fa-star text-[#FFDC64] text-3xl"></i>
                         <div>
                             <h2 class="text-3xl font-extrabold">5.00</h2>
@@ -69,7 +71,66 @@
                 </div>
             </div>
         </div>
+
     </header>
+    <main class="container mx-auto">
+        <!-- our featured products section start  -->
+        <section class="my-32">
+            <div class="text-center px-4 lg:px-0 lg:w-1/2 mx-auto space-y-6">
+                <h1 class="text-5xl font-extrabold">Our Featured Products</h1>
+                <p class="text-base font-medium text-dark3">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-4 gap-6 px-4 lg:px-0">
+                <!-- first card  -->
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] shadow-sm  p-8 ">
+                    <figure class="">
+                        <img class="" src="images/tea-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                        <p class="font-semibold text-dark3 text-base">Creamer could be replaced by fresh milk</p>
+
+                    </div>
+                </div>
+                <!-- second  card  -->
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] shadow-sm  p-8 ">
+                    <figure class="">
+                        <img class="" src="images/tea-2.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                        <p class="font-semibold text-dark3 text-base">Creamer could be replaced by fresh milk</p>
+
+                    </div>
+                </div>
+                <!-- Third card  -->
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] shadow-sm  p-8 ">
+                    <figure class="">
+                        <img class="" src="images/tea-3.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                        <p class="font-semibold text-dark3 text-base">Creamer could be replaced by fresh milk</p>
+
+                    </div>
+                </div>
+                <!-- Third card  -->
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] shadow-sm  p-8 ">
+                    <figure class="">
+                        <img class="" src="images/tea-4.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                        <p class="font-semibold text-dark3 text-base">Creamer could be replaced by fresh milk</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
