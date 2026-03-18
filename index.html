@@ -47,19 +47,19 @@
 <body class="manrope">
     <!-- hero section start  -->
     <header class="container mx-auto">
-        <div class="hero h-auto lg:h-[500px] mt-9">
-            <div class="flex flex-col lg:flex-row gap-0 lg:gap-4 justify-center items-center">
-                <div class="px-3 lg:px-0 text-center lg:text-left lg:pr-32 flex-1">
-                    <h1 class="text-5xl font-bold">It's good <br>
+        <div class="hero mt-9">
+            <div class="flex flex-col lg:flex-row  justify-center items-center gap-6">
+                <div class="px-4 lg:px-0 text-center lg:text-left lg:pr-24 flex-1">
+                    <h1 class="text-4xl sm:text-5xl font-bold leading-tight">It's good <br>
                         tea time at The <br> Tea House</h1>
-                    <p class="py-6 text-dark3">
+                    <p class="py-6 text-dark3 text-sm sm:text-base">
                         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                         quasi. In deleniti eaque aut repudiandae et a id nisi.
                     </p>
                     <button class="btn bg-gradient-to-r from-lf to-lr text-xl text-white">Explore More</button>
                 </div>
-                <div class="relative mt-7 flex-1">
-                    <img class="bg-none" src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <!-- <div class="relative mt-7 flex-1">
+                    <img class="bg-none" src="images/banner.png" class="w-full max-w-sm sm:max-w-md lg:max-w-lg rounded-lg shadow-2xl" />
                     <div
                         class="flex justify-center items-center gap-3 bg-[#FFFFFF] shadow-xl px-3 py-5 w-56 rounded-xl absolute -mt-16 lg:-mt-32 ml-5 lg:ml-28">
                         <i class="fa-solid fa-star text-[#FFDC64] text-3xl"></i>
@@ -68,9 +68,75 @@
                             <p class="text-base font-semibold">Trust Pilot Ratings</p>
                         </div>
                     </div>
+                </div> -->
+
+                <div class="relative mt-7 flex-1">
+                    <img class="bg-none" src="images/banner.png"
+                        class="w-full max-w-sm sm:max-w-md lg:max-w-lg rounded-lg shadow-2xl" />
+                    <div
+                        class="absolute bottom-[3%] left-[15%] sm:bottom-[5%] sm:left-[20%] lg:bottom-[7%] lg:left-[18%] flex items-center gap-3 bg-white shadow-xl px-3 py-3 sm:px-4 sm:py-4 w-[170px] sm:w-[180px] md:w-[220px] rounded-xl">
+                        <i class="fa-solid fa-star text-[#FFDC64] text-3xl"></i>
+                        <div>
+                            <h2 class="sm:text-xl md:text-2xl font-extrabold">5.00</h2>
+                            <p class="text-xs sm:text-sm font-semibold">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- <section>
+            <div class="hero mt-9">
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-6">
+
+                   
+                    <div class="px-4 lg:px-0 text-center lg:text-left lg:pr-24 flex-1">
+                        <h1 class="text-4xl sm:text-5xl font-bold leading-tight">
+                            It's good <br>
+                            tea time at The <br> Tea House
+                        </h1>
+
+                        <p class="py-5 text-gray-500 text-sm sm:text-base">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                            excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+                            et a id nisi.
+                        </p>
+
+                        <button class="btn bg-gradient-to-r from-orange-400 to-red-500 text-white text-lg px-6">
+                            Explore More
+                        </button>
+                    </div>
+
+                    <div class="relative flex-1 mt-8 lg:mt-0 flex justify-center">
+
+                        <img src="images/banner.png" class="w-full max-w-sm sm:max-w-md lg:max-w-lg" />
+
+                     
+                        <div class="absolute 
+                bottom-[5%] left-[10%] 
+                sm:bottom-[8%] sm:left-[15%]
+                lg:bottom-[12%] lg:left-[20%]
+                flex items-center gap-3 
+                bg-white shadow-xl 
+                px-3 py-3 sm:px-4 sm:py-4
+                w-[150px] sm:w-[180px] md:w-[220px]
+                rounded-xl">
+
+                            <i class="fa-solid fa-star text-yellow-400 text-xl sm:text-2xl"></i>
+
+                            <div>
+                                <h2 class="text-lg sm:text-xl md:text-2xl font-extrabold">5.00</h2>
+                                <p class="text-xs sm:text-sm font-semibold text-gray-500">
+                                    Trust Pilot Ratings
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
     </header>
     <main class="container mx-auto">
         <!-- our featured products section start  -->
@@ -164,9 +230,10 @@
             </div>
         </section>
         <!-- supper client section start  -->
-        <section class="my-32 bg-gradient-to-r from-lf to-lr flex flex-col lg:flex-row gap-12 py-24 px-4 lg:px-16 rounded-lg">
+        <section
+            class="my-32 bg-gradient-to-r from-lf to-lr flex flex-col lg:flex-row gap-12 py-24 px-4 lg:px-16 rounded-lg">
             <div class="flex items-center">
-                <div class="space-y-5 lg:pr-28 lg:text-left text-center"> 
+                <div class="space-y-5 lg:pr-28 lg:text-left text-center">
                     <h1 class="text-5xl font-bold text-white">Meet Our Super <br> Clients</h1>
 
                     <p class="text-white">
@@ -222,6 +289,59 @@
                 </div>
             </div>
         </section>
+        <!-- news & Events section start  -->
+        <section>
+            <div class="text-center px-4 lg:px-0 lg:w-1/2 mx-auto space-y-6 my-11">
+                <h1 class="text-5xl font-extrabold">News & Events</h1>
+                <p class="text-base font-medium text-dark3">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                    words which don't look even slightly believable.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 px-3 lg:px-0">
+                <div class="card bg-base-100 p-5 border-2 border-[#D2D2D2]">
+                    <figure>
+                        <img class="w-full" src="images/news-1.png"
+                            alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-base font-medium text-dark3">Feb 05, 2027</p>
+                        <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
+                        <p class="text-dark3 font-medium text-base">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                       <h4 class="text-base font-bold">Learn More</h4>
+                    </div>
+                </div>
+                <div class="card bg-base-100 p-5 border-2 border-[#D2D2D2]">
+                    <figure>
+                        <img class="w-full" src="images/news-1.png"
+                            alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-base font-medium text-dark3">Feb 05, 2027</p>
+                        <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
+                        <p class="text-dark3 font-medium text-base">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                       <h4 class="text-base font-bold">Learn More</h4>
+                    </div>
+                </div>
+                <div class="card bg-base-100  p-5 border-2 border-[#D2D2D2]">
+                    <figure>
+                        <img class="w-full" src="images/news-1.png"
+                            alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-base font-medium text-dark3">Feb 05, 2027</p>
+                        <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
+                        <p class="text-dark3 font-medium text-base">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                       <h4 class="text-base font-bold">Learn More</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 </body>
 
